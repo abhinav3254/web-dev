@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is Form</h2>
+    <!-- In action we write that in which backend we have to submit our backend data -->
+    <form action="backendnode.js">
+        <label for="myName">Name:</label>
+        <div>
+            <input type="text" name="myName" id="myName">
+        </div>
+        <br>
+        <!-- Div takes a block space -->
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <!-- Input tag is inline Tag -->
+        <br>
+        <div>
+            Email <input type="email" name="myEmail">
+            <!-- Using name our backend will identify this tag -->
+        </div>
+        <br>
+        <div>
+            <input type="number" name="">
+        </div>
+        <div>
+            Are you ready : <input type="checkbox">
+        </div>
+        <div>
+            In this we can select both <br>
+            Gender: Male :<input type="radio"> Female :<input type="radio">
+            <br>
+            In this we can select only one because of same name <br>
+            Gender: Male :<input type="radio" name="myGender"> Female :<input type="radio" name="myGender">
+        </div>
+        <div>
+            Write About yourself: <br>
+            <textarea name="myTextArea" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="Indica">Indica</option>
+                <option value="bmw" selected>bmw</option>
+                <option value="audi">audi</option>
+                <option value="benz">benz</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
