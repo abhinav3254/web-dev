@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: black;
+    height: 80px;
+}
+
+ul {
+    margin: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+p {
+    color: white;
+}
