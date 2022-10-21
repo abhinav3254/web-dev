@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: red;
+    width: 20vw;
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.main {
+    background-color: yellow;
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
