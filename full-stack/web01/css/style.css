@@ -1,10 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
-    margin: 0;
+    margin: 0 2px;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#fff, #c3f5ff);
+    background-image: linear-gradient(to left, #fff 80%, #c3f5ff 20%);
+}
+
+.navsection {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* for vertical center */
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* for horizontal center */
+    align-items: center;
+    background-image: linear-gradient(to top, #fff 80%, #c3f5ff 20%);
+}
+
+.logo {
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+    /* font-family: 'Fasthand', cursive; */
+}
+
+@keyframes aagepiche {
+    from {
+        padding-left: 40px;
+    }
+
+    to {
+        padding-right: 40px;
+    }
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+nav a:first-child {
+    color: #4458dc;
+}
+
+/* nav a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid #4458dc;
+}
+
+nav a:hover::before {
+    width: 100%;
+} */
+
+nav a:hover {
+    border-bottom: 2px solid #4458dc;
+    transition: all 0.4s linear;
 }
