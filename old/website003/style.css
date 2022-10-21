@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.main-ul {
+    padding: 2px 5px;
+}
