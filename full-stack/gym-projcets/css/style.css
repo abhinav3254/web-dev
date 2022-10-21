@@ -18,7 +18,7 @@
     border: 2px solid greenyellow;
     color: yellow;
     display: block;
-    width: 33%;
+    width: 35%;
     margin: 20px auto;
 }
 
@@ -29,4 +29,21 @@
     position: absolute;
     right: 34px;
     top: 20px;
+}
+
+.navbar {
+    color: white;
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 22px;
+}
+
+.navbar li {
+    display: inline-block;
 }
