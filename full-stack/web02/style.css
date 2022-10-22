@@ -81,7 +81,36 @@ tr td a {
     /*transition: .3s; */
     margin-top: 10px;
     text-decoration: none;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 200px;
+}
+
+tr td a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* --hue-color: 224; */
 /* hsl(var(--hue-color), 89%, 60%); */
+
+.imgmain a {
+    text-decoration: none;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 50%; */
+}
+
+
+.imgmain {
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+
+.imgmain a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
