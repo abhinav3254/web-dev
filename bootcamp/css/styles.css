@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    /* background-color: #B9E0FF; */
+}
+
+.middle-container {
+    background-color: red;
+}
+
+.bottom-container {
+    background-color: blue;
+}
