@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    /* It centers every thing which doesn't have width */
+}
+
+h1 {
+    width: 20%;
+    margin: 0 auto 0 auto;
+    /* This used to center when there is width */
+}
