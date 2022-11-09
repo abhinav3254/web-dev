@@ -23,6 +23,7 @@ h1 {
     /* try to go for rem bcz it will ignore all the parent properties and apply its own properties */
     /* doesn't get effected by parent and easy to debug and have least error */
     color: #66BFBF;
+    line-height: 2;
 }
 
 .top-h2 {
