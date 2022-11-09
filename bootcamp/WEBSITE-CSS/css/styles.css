@@ -52,6 +52,7 @@ a {
     top: 50px
 }
 
+
 .bottom-cloud {
     position: absolute;
     left: 300px;
@@ -63,3 +64,34 @@ a {
     position: relative;
     padding-top: 100px;
 }
+
+.skills {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.skill-row {
+    margin: 100px auto;
+    text-align: left;
+}
+
+.web-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* .code-skill-desc {
+    clear: left;
+}
+
+.code-skill-desc-2 {
+    clear: right;
+} */
