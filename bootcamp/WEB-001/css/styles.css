@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: lightcoral;
+}
+
+.top-nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 5px 15px;
+}
+
+.middle-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.middle-container span {
+    background-color: black;
+    color: white;
+}
+
+.image-container {
+    background-image: url(../assets/image/jane-image.jpg);
+    height: 1000px;
+}
+
+.image-container-text h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+.image-container-text h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.image-container-text p {
+    color: white;
+    background-color: lightgray;
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.image-container-text {
+    position: absolute;
+    top: 645px;
+    left: 40px;
+}
