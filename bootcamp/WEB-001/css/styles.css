@@ -4,7 +4,7 @@
 }
 
 .top-nav {
-    background-color: lightcoral;
+    background-color: black;
 }
 
 .top-nav img {
@@ -18,9 +18,18 @@
     margin: 50px auto;
 }
 
+.middle-container h1 {
+    font-size: 3.5rem;
+}
+
+.middle-container p {
+    font-size: 1.5rem;
+}
+
 .middle-container span {
     background-color: black;
     color: white;
+    padding: 5px;
 }
 
 .image-container {
@@ -54,4 +63,45 @@
     position: absolute;
     top: 645px;
     left: 40px;
+}
+
+.more-one {
+    background-color: rgb(248, 243, 237);
+}
+
+.more-one-left {
+    width: 60%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.more-one-left img {
+    width: 100%;
+}
+
+.more-one-left span {
+    color: rgb(157, 156, 156);
+}
+
+.sent {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.like {
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.reply {
+    margin: 2rem;
+    display: inline-block;
+}
+
+.like button {
+    float: left;
+}
+
+.reply button {
+    float: right;
 }
