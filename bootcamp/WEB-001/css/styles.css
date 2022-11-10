@@ -4,7 +4,7 @@
 }
 
 .top-nav {
-    background-color: lightcoral;
+    background-color: black;
 }
 
 .top-nav img {
@@ -18,9 +18,18 @@
     margin: 50px auto;
 }
 
+.middle-container h1 {
+    font-size: 3.5rem;
+}
+
+.middle-container p {
+    font-size: 1.5rem;
+}
+
 .middle-container span {
     background-color: black;
     color: white;
+    padding: 5px;
 }
 
 .image-container {
