@@ -56,6 +56,7 @@ nav a:hover {
 
 .content h1 {
     font-size: 6rem;
+    color: #EB6440;
 }
 
 .span-1 {
@@ -105,6 +106,7 @@ nav a:hover {
 
 .about-content {
     margin: 4rem;
+    font-size: 2rem;
 }
 
 .skills {
@@ -119,4 +121,23 @@ nav a:hover {
     width: 10rem;
     height: 6rem;
     margin: 2rem;
+}
+
+.contact {
+    /* text-align: center; */
+    margin: 5rem;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content img {
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem;
+}
+
+.contact-content p {
+    font-size: 2rem;
 }
