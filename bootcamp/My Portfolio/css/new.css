@@ -100,6 +100,23 @@ nav a:hover {
 }
 
 .about {
-    width: 100%;
-    height: 100%;
+    margin: 5rem;
+}
+
+.about-content {
+    margin: 4rem;
+}
+
+.skills {
+    margin: 5rem;
+}
+
+.skills-content {
+    text-align: center;
+}
+
+.skills-content img {
+    width: 10rem;
+    height: 6rem;
+    margin: 2rem;
 }
