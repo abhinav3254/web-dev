@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: inline-block;
+    font-size: 2rem;
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+}
+
+.ontheright {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 1rem;
+}
+
+.ontheright img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 1rem;
+}
+
+.mainbox {
+    width: auto;
+    background-color: lightblue;
+}
+
+.mainbox img {
+    float: right;
+}
+
+.content {
+    display: inline-block;
+    margin: auto;
+}
