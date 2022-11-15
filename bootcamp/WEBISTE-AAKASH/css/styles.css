@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.nav-bar a:hover {
+    background-color: green;
+    color: white;
+}
