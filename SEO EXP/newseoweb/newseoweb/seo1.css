@@ -1,0 +1,160 @@
+*{	padding: 0; margin: 0; box-sizing: border-box; 
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	width: 100%;
+	min-height: 100vh;
+}
+.logo{
+	font-size: 2em;
+	font-weight: bolder;
+}
+.logo span{
+	color: #e67e22;
+}
+nav{
+	width: 100%;
+	height: 8em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 70px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.menu a{
+	text-decoration: none;
+	color: #232323;
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+}
+
+.menu a:first-child{
+	color: #e67e22;
+}
+.menu a:hover{
+	color: #e67e22;
+}
+.search{
+	position: relative;
+
+}
+.search input{
+	padding: 10px 20px;
+	border-radius: 15px;
+	border: 1px solid grey;
+	outline: none;
+}
+#icon{
+	position: absolute;
+	right:0;
+	padding: 10px 20px;
+}
+#mode{
+	padding: 10px 20px;
+	font-size: 1.6rem;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left{
+	flex-basis: 40%;
+}
+.right{
+	flex-basis: 50%;
+}
+.right img{
+	width: 100%;
+}
+
+.left h1{
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+.left p{
+	line-height: 2.2em;
+}
+.left h1 span{
+	color:#e67e22;
+}
+
+.left a{
+	text-decoration: none;
+	color: white;
+	background: #e67e22;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+.icons{
+	margin-top: 3em;
+}
+.icons i{
+	padding: 15px;
+	font-size: 2em;
+	color: #232323;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.icons i:hover{
+	background: #e67e22;
+	color: white;
+	border-radius: 50%;
+}
+
+.icons i:last-child{
+	background: #e67e22;
+	color: white;
+	border-radius: 50%;	
+}
+
+@media only screen and (max-width: 770px){
+	.logo{
+		width: 100%;
+		text-align: center;
+		font-size: 2.5em;
+	}
+	.search{display: none;}
+	#mode{display: none;}
+	nav{
+		padding: 0 15px;
+	}
+	.menu{width: 100%; text-align: center;}
+	.container{
+		text-align: center;
+		padding: 20px 40px;
+		flex-direction: column-reverse;
+	}
+.left{
+	flex-basis: 100%;
+}
+.right{
+	flex-basis: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
