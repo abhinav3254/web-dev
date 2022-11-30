@@ -5,26 +5,67 @@
 
 section {
     width: 100%;
+    /* adding flex here */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify content */
+    /* justify-content: space-around; */
+    /* This works horizontally*/
+
+    /* align items flex property */
+
+    /* align-items: center; */
+    /* This works vertically */
 }
 
 .one {
     border: 2px solid green;
     margin: 1rem;
     background-color: lightcoral;
+
+    /* adding flex-property */
+    flex: 1;
 }
 
 .two {
     border: 2px solid black;
     margin: 1rem;
     background-color: antiquewhite;
+
+    /* adding flex-property */
+
+    /* flex: 2; */
+    flex: 1
 }
 
 .three {
     border: 2px solid yellow;
     margin: 1rem;
     background-color: lightblue;
+
+    /* adding flex-property */
+
+    flex: 1;
 }
 
 div {
     padding: 1.2rem;
+
+    /* This is used for width if we are using flex then we have use flex basis instead of width */
+
+    flex-basis: 30%;
+}
+
+/* Making this responsive */
+
+@media(min-width:768px) {
+
+    section {
+        display: flex;
+        align-items: center;
+    }
+
 }
