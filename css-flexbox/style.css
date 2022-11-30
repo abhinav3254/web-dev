@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+}
+
+.one {
+    border: 2px solid green;
+    margin: 1rem;
+    background-color: lightcoral;
+}
+
+.two {
+    border: 2px solid black;
+    margin: 1rem;
+    background-color: antiquewhite;
+}
+
+.three {
+    border: 2px solid yellow;
+    margin: 1rem;
+    background-color: lightblue;
+}
+
+div {
+    padding: 1.2rem;
+}
