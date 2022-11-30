@@ -13,6 +13,12 @@ section {
 
     /* justify content */
     /* justify-content: space-around; */
+    /* This works horizontally*/
+
+    /* align items flex property */
+
+    align-items: flex-start;
+    /* This works vertically */
 }
 
 .one {
@@ -31,7 +37,8 @@ section {
 
     /* adding flex-property */
 
-    flex: 2;
+    /* flex: 2; */
+    flex: 1
 }
 
 .three {
