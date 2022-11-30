@@ -53,4 +53,8 @@ section {
 
 div {
     padding: 1.2rem;
+
+    /* This is used for width if we are using flex then we have use flex basis instead of width */
+
+    flex-basis: 30%;
 }
