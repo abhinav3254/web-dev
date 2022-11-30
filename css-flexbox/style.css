@@ -17,7 +17,7 @@ section {
 
     /* align items flex property */
 
-    align-items: flex-start;
+    align-items: center;
     /* This works vertically */
 }
 
