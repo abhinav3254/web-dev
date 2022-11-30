@@ -5,24 +5,40 @@
 
 section {
     width: 100%;
+    /* adding flex here */
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
 }
 
 .one {
     border: 2px solid green;
     margin: 1rem;
     background-color: lightcoral;
+
+    /* adding flex-property */
+    flex: 1;
 }
 
 .two {
     border: 2px solid black;
     margin: 1rem;
     background-color: antiquewhite;
+
+    /* adding flex-property */
+
+    flex: 2;
 }
 
 .three {
     border: 2px solid yellow;
     margin: 1rem;
     background-color: lightblue;
+
+    /* adding flex-property */
+
+    flex: 1;
 }
 
 div {
