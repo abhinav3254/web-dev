@@ -10,6 +10,9 @@ section {
     flex-direction: row;
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
+
+    /* justify content */
+    /* justify-content: space-around; */
 }
 
 .one {
